@@ -1,0 +1,5 @@
+# Example: namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: aks-demo-ns
