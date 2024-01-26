@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/opb.css">
+</head>
+<style>
+
+
+</style>
+<body>
+
+<div class="container-fluid">
+
+	<div class="header">
+		<img src="images/kyndryl_logo_white.png" class="headericon" alt="Kyndryl Logo" width="120" height="30" >
+	</div>
+	
+	<div class="col-sm-4 loginsection" >
+		<img src="images/OPB.png" alt="OPB Logo" class="opblogo" >
+		<p class="projheading">Ontario Pension Board</p>
+	 
+			<div class="row content1">
+				<div class="container content2">
+				  <h1>Hello, World!</h1>
+				  <h3 id="datetime"></h3>
+				</div>
+			</div>     
+	</div>
+
+	<div class="col-sm-8 imgsec">
+		<img src="images/kyndrylImg1.png" class="kyndryl_img" alt="Kyndryl Image" width="600" height="600">
+	</div>
+
+</div>
+
+</body>
+
+<script>
+	// JavaScript code to update the datetime element
+	setInterval(() => {
+	const datetimeElement = document.getElementById('datetime');
+	const now = new Date();
+	const formattedDateTime = now.toLocaleString();
+	datetimeElement.textContent = formattedDateTime;
+	}, 1000);
+</script>
+
+</html>

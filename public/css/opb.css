@@ -1,0 +1,49 @@
+.header {
+	background-color:#FD452D;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+.headericon {
+	margin:10px;
+	padding-left:20px;
+}
+.loginsection {
+	background-color:#fff;
+	margin-top:2%;
+	padding-left:10%;
+}
+.opblogo {
+	margin-left:-10px;
+	margin-bottom:10px;
+	width:30%; 
+	height:30%;
+}
+.projheading {
+	font-size:30px;
+	margin-left:-10px;
+	margin-bottom:50px;
+	font-weight:550;
+	color:#788b38;
+
+}
+.content1 {
+	background-color: #F4F4F4;
+	border-radius: 25px;
+	height:130px;
+	width:300px;
+	border: 2px solid #ccc;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.content2 {
+	margin-left:20px;
+	color:#013d67;
+}
+.imgsec {
+	padding-left:150px;
+	margin-top:20px
+}
+.kyndryl_img {
+	border-radius:10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
